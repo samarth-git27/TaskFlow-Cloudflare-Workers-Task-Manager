@@ -1,0 +1,22 @@
+🔹 Create a task
+POST https://task-manager-api.task-manager-api.workers.dev/tasks
+
+
+Body (JSON):
+
+{
+  "title": "My first task"
+}
+
+🔹 Update a task
+PUT https://task-manager-api.task-manager-api.workers.dev/tasks/1
+
+
+Body (JSON):
+
+{
+  "title": "Updated task"
+}
+
+🔹 Delete a task
+DELETE https://task-manager-api.task-manager-api.workers.dev/tasks/1
