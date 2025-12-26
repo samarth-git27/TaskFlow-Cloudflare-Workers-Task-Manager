@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "task-manager-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-12-24",
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "task_db",
+      "database_id": "1a10d1d8-89b5-401e-ab5f-e5d2c28a5be9"
+    }
+  ]
+}
