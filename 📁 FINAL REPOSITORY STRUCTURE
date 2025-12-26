@@ -1,0 +1,16 @@
+taskflow-cloudflare/
+│
+├── FRONTEND/
+│   ├── index.html
+│   ├── app.js
+│   └── styles.css
+│
+├── src/
+│   └── index.ts
+│
+├── schema.sql
+├── wrangler.jsonc
+├── package.json
+├── tsconfig.json
+├── .gitignore
+└── README.md
